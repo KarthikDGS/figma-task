@@ -1,0 +1,70 @@
+.overall {
+  margin-top: 80px;
+  margin-left: 350px;
+  position: absolute;
+  width: 919.88px;
+  height: 650px;
+  align-items: center;
+  background: linear-gradient(
+    99.94deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.8) 0.01%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  box-shadow: 5px 5px 20px rgba(34, 9, 69, 0.25);
+  backdrop-filter: blur(50px);
+
+  border-radius: 24px;
+}
+
+.spec {
+  color: #30af9a;
+}
+.information {
+  margin-top: 71.06px;
+  line-height: 2px;
+  margin-left: 60.35px;
+}
+.timing {
+  display: flex;
+  flex-direction: row;
+  margin-top: 71.06px;
+  margin-right: 60.35px;
+}
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  margin-right: 10px;
+}
+.chart {
+  position: absolute;
+  margin-left: 60.35px;
+  margin-top: 100px;
+}
+
+.shape {
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 20px;
+}
+.date {
+  position: absolute;
+  line-height: 1px;
+  margin-left: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.x {
+  position: absolute;
+  margin-left: 0px;
+}
+.close {
+  position: absolute;
+  margin-left: 880px;
+  margin-top: 39px;
+}

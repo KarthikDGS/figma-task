@@ -1,0 +1,48 @@
+.footer {
+  position: absolute;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 350px;
+  margin-left: 200px;
+  width: 700px;
+}
+
+.footer_item {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  justify-content: space-around;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 80px;
+  background-color: #333;
+  margin: 12px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+}
+
+.footer_content > div {
+  margin-right: 40px;
+}
+
+.rank {
+  position: relative;
+  margin-top: 0;
+}
+.cap {
+  position: relative;
+  margin-top: 10px;
+}
+h2 {
+  font-weight: 700px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
