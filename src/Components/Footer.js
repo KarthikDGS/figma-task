@@ -1,5 +1,5 @@
 import classes from "./footer.module.css";
-
+import { BiUpArrow } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className={classes.footer}>
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={classes.footer_item}>
           <h3>market Cap</h3>
           <h2 className={classes.cap}>
-            <img src={require("../Images/Vector 14.png")} alt="upper.jpg" />
+            <BiUpArrow style={{ color: "#30AF9A" }} />
             95
           </h2>
         </div>

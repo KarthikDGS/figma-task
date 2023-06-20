@@ -16,12 +16,7 @@ const Info = () => {
             </p>
           </div>
           <div className={classes.close}>
-            <img
-              className={classes.x}
-              src={require("../Images/Vector 243.png")}
-              alt="pic1.jpg"
-            />
-            <img src={require("../Images/Vector 244.png")} alt="pic.jpg" />
+            <button>X</button>
           </div>
           <div className={classes.timing}>
             <p className={classes.item}>15M</p>
@@ -33,12 +28,9 @@ const Info = () => {
             <p className={classes.item}>1W</p>
           </div>
         </div>
-        <div className={classes.shape}>
-          <div className={classes.date}>
-            <p>16 JUNE 2023</p>
-            <h4>5:00 PM</h4>
-          </div>
-          <img src={require("../Images/Shape.png")} alt="shape.jpg" />
+        <div className={classes.date}>
+          <p>16 JUNE 2023</p>
+          <h4>5:00 PM</h4>
         </div>
         <div className={classes.chart}>
           <SimpleAreaChart />

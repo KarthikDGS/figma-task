@@ -46,25 +46,21 @@
   margin-top: 100px;
 }
 
-.shape {
-  position: absolute;
-  margin-left: 570px;
-  margin-top: 20px;
-}
 .date {
   position: absolute;
   line-height: 1px;
-  margin-left: 30px;
-  margin-top: 5px;
   text-align: center;
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 100px;
+  border-style: ridge;
+  border-color: rgb(251, 187, 118);
 }
 
-.x {
-  position: absolute;
-  margin-left: 0px;
-}
 .close {
   position: absolute;
   margin-left: 880px;
   margin-top: 39px;
+  border: 3px solid #777e90;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
